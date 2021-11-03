@@ -1,0 +1,73 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3574368018" file="F:\MAE547_GUI\JPP_App.prj" location="F:\MAE547_GUI" name="JPP_App" target="target.mlapps" target-name="打包为 App">
+    <param.appname>JPP_App</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\WJG\AppData\Local\Temp\tp2f0ac0a3_fe82_42c0_b47b_4df6ca88c430.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\王君罡\Desktop</param.output>
+    <param.guid>12616d2d-2a24-49be-8992-1bc5a6b23e22</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Pt_Jwang_Ping.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\DHparameters.mlapp</file>
+      <file>${PROJECT_ROOT}\dynamic_GUI.mlapp</file>
+      <file>${PROJECT_ROOT}\dynamic_of_system.m</file>
+      <file>${PROJECT_ROOT}\impedance_entrance.m</file>
+      <file>${PROJECT_ROOT}\impedance_GUI.mlapp</file>
+      <file>${PROJECT_ROOT}\meq_GUI.mlapp</file>
+      <file>${PROJECT_ROOT}\motion_equation.m</file>
+      <file>${PROJECT_ROOT}\PD_entrance.m</file>
+      <file>${PROJECT_ROOT}\PDcontrol_GUI.mlapp</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\王君罡" name="Desktop" optional="false">C:\Users\王君罡\Desktop</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>E:\Matlab</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
