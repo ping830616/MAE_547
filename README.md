@@ -1,5 +1,5 @@
 # MAE_547
-Modelling and Control of Robots
+Modelling and Control of Robots at Arizona State University
 
 - Defining the robot configuration with/without DH parameters (you would need to 
 find the DH parameters if the user does not know those, then plot the robotic arm 
